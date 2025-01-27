@@ -1,0 +1,133 @@
+/* Estilo Geral do Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
+}
+
+.header-top {
+  width: 100%;
+  background-color: #007bff;
+  height: 5px;
+}
+
+/* Conteúdo Principal */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  max-width: 140px;
+  height: auto;
+}
+
+/* Barra de Pesquisa */
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 500px;
+  margin: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  border-radius: 20px 0 0 20px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+/* Opções do Usuário */
+.user-options {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-options a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.user-options a:hover {
+  color: #0056b3;
+}
+
+/* Navegação */
+.navigation {
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin: 0 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #cce5ff;
+}
+
+/* Estilo Responsivo */
+@media (max-width: 768px) {
+  .header-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .search-bar {
+      max-width: 100%;
+      margin: 10px 0;
+  }
+
+  .navigation ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+}

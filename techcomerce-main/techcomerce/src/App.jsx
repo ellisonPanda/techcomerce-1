@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/header';
 import './App.css';
 import Footer from './components/footer';
-import ProductPage from "./components/ProductPage";
+import Banner from "./components/Banner";
 
 
 
@@ -11,9 +11,9 @@ function App(){
 
   <div className="app-container">
     <Header />
-    <ProductPage />
+    <Banner />
     <Footer />
   </div>
-  );
+  ); 
 }
   export default App

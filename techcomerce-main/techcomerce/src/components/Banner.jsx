@@ -1,12 +1,12 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Importa os estilos do carrossel
 import { Carousel } from "react-responsive-carousel";
-import "./ProductPage.css";
+import "./Banner.css";
 
-const ProductPage = () => {
+const Banner = () => {
 
   return (
-    <div className="product-page">
+    <div className="Banner">
       <div className="carousel-wrapper">
         <Carousel
           autoPlay
@@ -30,4 +30,4 @@ const ProductPage = () => {
   );
 };
 
-export default ProductPage;
+export default Banner;

@@ -20,11 +20,11 @@ function Header() {
             </div>
             <nav className="navigation">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#ofertas">Ofertas do Dia</a></li>
-                    <li><a href="#mais-vendidos">Mais Vendidos</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Produtos">Produtos</a></li>
+                    <li><a href="#Ofertas">Ofertas do Dia</a></li>
+                    <li><a href="#Mais-vendidos">Mais Vendidos</a></li>
+                    <li><a href="#Contatos">Contato</a></li>
                 </ul>
             </nav>
         </header>

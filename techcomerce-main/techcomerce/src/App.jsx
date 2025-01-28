@@ -1,19 +1,14 @@
 import React from 'react';
-import Header from './components/header';
-import './App.css';
-import Footer from './components/footer';
-import Banner from "./components/Banner";
+import Home from './pages/Home';
 
 
 
-function App(){
+
+
+function App(){ 
   return(
+    <Home/>
 
-  <div className="app-container">
-    <Header />
-    <Banner />
-    <Footer />
-  </div>
   ); 
 }
   export default App
